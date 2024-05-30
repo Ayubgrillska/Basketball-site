@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>      
+<nav>
+    <div class="logo">Basketball Profesor</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+            <a href="#">Coaching</a>
+            <ul>
+                <li><a href="dribbling.html">Dribbling</a></li>
+                <li><a href="Positioning.html">Positioning</a></li>
+                <li><a href="shooting.html">Shooting</a></li>
+                <li><a href="fråga1.html">FAQ</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<button class="accordion">How can I improve my dribbling skills effectively?</button>
+<div class="panel">
+  <p>Consistent practice is key. Start with basic dribbling drills to build control and gradually incorporate advanced moves like crossovers, behind-the-back, and between-the-legs dribbles. Focus on maintaining a low dribble, keeping your head up, and using your fingertips to control the ball.</p>
+</div>
+
+<button class="accordion">What are some tips for developing a more accurate shot?</button>
+<div class="panel">
+  <p>Focus on proper hand positioning, balance, and follow-through. Ensure your shooting hand is under the ball and your non-shooting hand guides it. Practice regularly from different spots on the court, and work on your footwork to improve consistency.
+  </p>
+</div>
+
+<button class="accordion">How can I finish better around the rim against taller defenders?</button>
+<div class="panel">
+  <p>Use a variety of layups, including reverse and finger rolls, to keep defenders guessing. Practice finishing with both hands and develop a reliable hook shot. Improving your vertical leap and strength can also help you finish stronger at the basket.</p>
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+</body>
+</html>

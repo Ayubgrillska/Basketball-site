@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: #aba8a8;
+}
+nav {
+  background: black;
+  background: ;
+}
+nav::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+nav .logo{
+  float: left;
+  color: white;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 70px;
+  padding-left: 60px;
+}
+nav ul{
+  float: right;
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+}
+nav ul li{
+  display: inline-block;
+  background: BLACK;
+  margin: 0 5px;
+}
+nav ul li a{
+  color:white;
+  text-decoration: none;
+  line-height: 70px;
+  font-size-adjust: 10px;
+  padding: 8px 15px;
+}
+nav ul li a:hover{
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ffffff,
+  0 0 5px #ffffff;
+  transform: translate(-50%,-50%);
+}
+nav ul ul{
+  position: absolute;
+  top: 90px;
+  opacity: 0;
+  visibility: hidden;
+  transition:top .3s;
+}
+nav ul li:hover > ul{
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+}
+nav ul ul li{
+  position: relative;
+  margin: 0px;
+  width: 150px;
+  float: none;
+  display: list-item;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  z-index: 1;
+}
+#main img{
+  width: 1519PX;
+  height: 550px;
+}
+#main2{
+padding-right: 1000px;
+margin-top: 20px;
+
+}
+#main2{
+  border: 6px solid black;
+    width: 1418px;
+    margin-left:100px;
+    height:413px
+}
+.text9{
+  font-size: 25%;
+  margin-left: 680px;
+  margin-top:-400px;
+  position: absolute;
+}
+.container{
+  position: relative;
+  text-align: left;
+  color:white;
+  font-size: 65px;
+  font-style: italic;
+}
+.centered{
+  position:absolute;
+  top: 26%;
+  left: 47%;
+  transform: translate(-50%,-50%);
+  padding-right: 980px;
+}
+.title{
+  text-align: center;
+  color: black;
+}
+#dribblingpic img{
+  width: 800px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+#dribblingpic {
+  border: 5px solid black;
+  margin-left: 211px;
+  width: 809px;
+}
+#behindthebackpic{
+  width: 800px;
+  height: 830px;
+  margin-bottom: 20px;
+  margin-top:20px; 
+}
+#behindthebackpic{
+  border: 5px solid black;
+  margin-left: 400px;
+  width: 809px;
+}
+#betweenthelegspic{
+  width: 800px;
+  height: 720px;
+  margin-bottom: 20px;
+  margin-top:-620px; 
+}
+#betweenthelegspic{
+border: 7px solid black;
+  margin-left: 900px;
+  width: 560px;
+}
+
+#crossoverpic{
+  width: 800px;
+  height: 600px;
+  margin-bottom: 20px;
+  margin-top:50px; 
+  margin-left:50px;
+}
+#crossoverpic{
+  border: 7px solid black;
+  width: 563px;
+  
+}
+.rubrikbetweenstheleg{
+  padding-left: 0px;
+  font-size:60px ;
+}
+.rubrikbehindtheback{
+  padding-left: 0px;
+  font-size:60px ;
+}
+
+.rubrikdribbling{
+padding-left: 0px;
+font-size:60px ;
+}
+#Positioningpic img{
+  padding-left: 60px;
+  width: 800px;
+  height: 400px 
+}
+#mainshootingpic img{
+width: 1500px;
+height: 670px
+
+}
+.titleshooting1{
+  text-align: center;
+  color: black;
+
+}
+#shootingpic2{
+  width: 800px;
+  height: 500px;
+  margin-bottom: 20px;
+  margin-top:20px; 
+}
+#shootingpic2{
+border: 5px solid black;
+  margin-left: 59px;
+  width: 543px;
+}
+#shootingpic3{
+  width: 800px;
+  height: 500px;
+  margin-bottom: 20px;
+  margin-top:-520px; 
+}
+#shootingpic3{
+border: 5px solid black;
+  margin-left: 810px;
+  width: 660px;
+}
+#shootingpic4{
+  width: 800px;
+  height: 500px;
+  margin-bottom: 20px;
+  margin-top:140px; 
+}
+#shootingpic4{
+  border: 5px solid black;
+  margin-left: 10px;
+  width: 660px;
+}
+#shootingpic5{
+  width: 800px;
+  height: 500px;
+  margin-bottom: 20px;
+  margin-top:-520px; 
+}
+#shootingpic5{
+  border: 5px solid black;
+  margin-left: 800px;
+  width: 660px;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: solid black;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #aba8a8; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  border: solid black;
+}
+
+#Finishingpic{
+  width: 800px;
+  height: 450px;
+  margin-bottom: 20px;
+  margin-top:0px; 
+}
+#Finishingpic{
+  border: 7px solid black;
+  margin-left: 0px;
+  width: 937px;
+  
+}
+.finishingintro{
+  margin-left: 1000px;
+  margin-top:-450px;
+  font-size: 380%;
+}
+.text10{
+  margin-left:970px ;
+}
+#Finishingpic2{
+  width: 800px;
+  height: 450px;
+  margin-bottom: 20px;
+  margin-top:15px; 
+}
+#Finishingpic2{
+  border: 7px solid black;
+  margin-left: 10px;
+  width: 663px;
+  height: 480px;
+}
+#Finishingpic3{
+  width: 800px;
+  height: 450px;
+  margin-bottom: 20px;
+  margin-top:-497px; 
+}
+#Finishingpic3{
+  border: 7px solid black;
+  margin-left: 840px;
+  width: 663px;
+  height:480px
+}
+.layupstitle{
+  margin-left: 670px;
+  margin-top:150px;
+  font-size: 310%;
+}
+#Finishingpic4{
+  width: 800px;
+  height: 450px;
+  margin-bottom: 20px;
+  margin-top:15px; 
+}
+#Finishingpic4{
+  border: 7px solid black;
+  margin-left: 10px;
+  width: 663px;
+  height: 480px;
+}
+.hookshottitle{
+  margin-left:1000px;
+  font-size: 310%;
+  margin-top:-565px ;
+}
+#Finishingpic5{
+  width: 800px;
+  height: 450px;
+  margin-bottom: 20px;
+  margin-top:15px; 
+}
+#Finishingpic5{
+  border: 7px solid black;
+  margin-left: 840px;
+  width: 663px;
+  height:480px
+}
+.dunktitle{
+  margin-left: 100px;
+  margin-top:100px;
+  font-size: 310%;
+}
+
